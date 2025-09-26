@@ -1,11 +1,11 @@
-firstName = "amine"
-lastName = "royce"
+cached_firstName = "first_name"
+cached_lastName = "last_name"
 
 first_name = input("please entre your First Name: ")
 last_name = input("please entre your Last Name: ")
 
-if first_name == firstName and last_name == lastName:
-    print(f"welcome, {firstName} {lastName}")
+if first_name == cached_firstName and last_name == cached_lastName:
+    print(f"welcome, {first_name} {last_name}")
 else:
     print("ERROR: Both first name and last name must be provided.")
 
